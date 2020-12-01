@@ -108,6 +108,46 @@ it's look weird
 
 /*preview style*/
 
+.wrapper{
+	width: 100%;
+}
+
+.daftar_isi{
+	margin-top: 70px;
+	margin-left: 15px;
+	width: 35%;
+	float: left;
+	padding-left: 15px;
+	background-color: #ececec; 
+	height: 100%;
+	position: relative;
+	border: 2px dashed lightseagreen;
+	margin-bottom: 1rem;
+	animation-name: side-left;
+	animation-duration: 1.5s;
+}
+
+.daftar_isi h1{
+	color: lightseagreen;
+	text-align: center;
+}
+
+.daftar_isi a{
+	text-decoration: none;
+	color: lightseagreen;
+	line-height: 50px;
+	border: 1px solid;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.daftar_isi a:hover{
+	background-color: lightseagreen;
+	color: #ececec;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
 .preview-items{
 	position: relative;
 	top: 60px;
@@ -115,8 +155,9 @@ it's look weird
 	grid-template-columns: 1fr 1fr 1fr;
 	animation-name: side-right;
 	animation-duration: 1.5s;
-	width: 100%;
+	width: 60%;
 	height: 100%;
+	float: right;
 }
 
 .preview-item{
@@ -159,7 +200,7 @@ it's look weird
 	position: relative;
 	top: 60px;
 	animation-name: side-right;
-	animation-duration: 1.5s;
+	animation-duration: 1.5s;	
 }
 
 .content{
@@ -171,6 +212,8 @@ it's look weird
 	color: lightseagreen;
 	border: 2px dashed lightseagreen;
 	padding: 10px;
+	float: right;
+	width: 60%;
 }
 
 .content .top-content-wrapper{
@@ -260,3 +303,11 @@ it's look weird
 
 /*button style end*/
 
+.footer{
+	text-align: center;
+	position: relative;
+	background-color: lightseagreen;
+	height: 80px;
+	padding-top: 10px;
+	color: #ececec;
+}
